@@ -1,0 +1,15 @@
+C:\PersonalProjects\DragonFinance\DragonFinanceBot\DragonFinanceBot\obj\Debug\net7.0\DragonFinanceBot.csproj.AssemblyReference.cache
+C:\PersonalProjects\DragonFinance\DragonFinanceBot\DragonFinanceBot\obj\Debug\net7.0\DragonFinanceBot.GeneratedMSBuildEditorConfig.editorconfig
+C:\PersonalProjects\DragonFinance\DragonFinanceBot\DragonFinanceBot\obj\Debug\net7.0\DragonFinanceBot.AssemblyInfoInputs.cache
+C:\PersonalProjects\DragonFinance\DragonFinanceBot\DragonFinanceBot\obj\Debug\net7.0\DragonFinanceBot.AssemblyInfo.cs
+C:\PersonalProjects\DragonFinance\DragonFinanceBot\DragonFinanceBot\obj\Debug\net7.0\DragonFinanceBot.csproj.CoreCompileInputs.cache
+C:\PersonalProjects\DragonFinance\DragonFinanceBot\DragonFinanceBot\bin\Debug\net7.0\DragonFinanceBot.exe
+C:\PersonalProjects\DragonFinance\DragonFinanceBot\DragonFinanceBot\bin\Debug\net7.0\DragonFinanceBot.deps.json
+C:\PersonalProjects\DragonFinance\DragonFinanceBot\DragonFinanceBot\bin\Debug\net7.0\DragonFinanceBot.runtimeconfig.json
+C:\PersonalProjects\DragonFinance\DragonFinanceBot\DragonFinanceBot\bin\Debug\net7.0\DragonFinanceBot.dll
+C:\PersonalProjects\DragonFinance\DragonFinanceBot\DragonFinanceBot\bin\Debug\net7.0\DragonFinanceBot.pdb
+C:\PersonalProjects\DragonFinance\DragonFinanceBot\DragonFinanceBot\obj\Debug\net7.0\DragonFinanceBot.dll
+C:\PersonalProjects\DragonFinance\DragonFinanceBot\DragonFinanceBot\obj\Debug\net7.0\refint\DragonFinanceBot.dll
+C:\PersonalProjects\DragonFinance\DragonFinanceBot\DragonFinanceBot\obj\Debug\net7.0\DragonFinanceBot.pdb
+C:\PersonalProjects\DragonFinance\DragonFinanceBot\DragonFinanceBot\obj\Debug\net7.0\DragonFinanceBot.genruntimeconfig.cache
+C:\PersonalProjects\DragonFinance\DragonFinanceBot\DragonFinanceBot\obj\Debug\net7.0\ref\DragonFinanceBot.dll
