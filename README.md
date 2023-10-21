@@ -42,6 +42,7 @@
         `"S$$$$$$$$$$$$$$$$$#"      $          `$          `$                
             `"""""""""""""'  
 
+
             #Projeto
             Esse projeto é um bot construído em dotnet e selenium que busca informações de ações e criptomoedas
             nos sites infomoney e coinmarketcap.
