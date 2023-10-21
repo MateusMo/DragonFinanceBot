@@ -1,5 +1,6 @@
 #Dragon Finance Bot
 
+<pre>
                 _ ___                /^^\ /^\  /^^\_
     _          _@)@) \            ,,/ '` ~ `'~~ ', `\.
   _/o\_ _ _ _/~`.`...'~\        ./~~..,'`','',.,' '  ~:
@@ -10,8 +11,7 @@
  < ~ ~ '~`'~'`, .,  .   `_: ::: \_ '      `_/ ::: \_ `.,' . ',  \_
   \ ' `_  '`_    _    ',/ _::_::_ \ _    _/ _::_::_ \   `.,'.,`., \-,-,-,_,_,
    `'~~ `'~~ `'~~ `'~~  \(_)(_)(_)/  `~~' \(_)(_)(_)/ ~'`\_.._,._,'_;_;_;_;_;
-
-
+</pre>
             #Projeto
             Esse projeto é um bot construído em dotnet e selenium que busca informações de ações e criptomoedas
             nos sites infomoney e coinmarketcap.
