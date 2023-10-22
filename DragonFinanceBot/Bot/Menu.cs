@@ -14,13 +14,37 @@ namespace DragonFinanceBot.Bot
         {
             var asciiImage
                 = Dragon.GetDragon();
-            System.Console.WriteLine(asciiImage);
+            Console.WriteLine(asciiImage);
 
             var menu = FinanceMenu.ShowMenu();
-            System.Console.WriteLine(menu);
-
-            System.Console.ReadLine();
-
+            Console.WriteLine(menu);
+            
+            var option = int.Parse(Console.ReadLine());
+            SwitchOption(option);
         }
+
+        public static void SwitchOption(int option)
+        {
+            switch (option)
+            {
+                case 1:
+                    break;
+                case 2:
+                    break;
+                case 3:
+                    break;
+                default:
+                    Console.WriteLine("Opção Inválida");
+                    break;
+
+            }
+        }
+
     }
 }
+
+
+
+
+
+
