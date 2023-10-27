@@ -1,8 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "SsPmwxkZWgD/nmlkqNn6GURN/12/StH9roRDgwEug3cYcFcm2XFQIzsq8qEEMpAkzZN5vuWg9T7gIcmncfUSCQ==",
+  "dgSpecHash": "hwyOURYCGBhTUCOR0BClTTNEIOLEs1PqE0vjq8laQddRcAGmrWWCGmTWrPP4GzE8gmiaC44DGG3PLAMhTWfSLw==",
   "success": true,
   "projectFilePath": "C:\\PersonalProjects\\DragonFinance\\DragonFinanceBot\\DragonFinanceBot\\DragonFinanceBot.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Mateus Oliveira\\.nuget\\packages\\htmlagilitypack\\1.11.54\\htmlagilitypack.1.11.54.nupkg.sha512",
+    "C:\\Users\\Mateus Oliveira\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\Mateus Oliveira\\.nuget\\packages\\microsoft.extensions.options\\7.0.1\\microsoft.extensions.options.7.0.1.nupkg.sha512",
+    "C:\\Users\\Mateus Oliveira\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\Mateus Oliveira\\.nuget\\packages\\microsoft.win32.systemevents\\7.0.0\\microsoft.win32.systemevents.7.0.0.nupkg.sha512",
+    "C:\\Users\\Mateus Oliveira\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\Mateus Oliveira\\.nuget\\packages\\selenium.webdriver\\4.14.1\\selenium.webdriver.4.14.1.nupkg.sha512",
+    "C:\\Users\\Mateus Oliveira\\.nuget\\packages\\system.drawing.common\\7.0.0\\system.drawing.common.7.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

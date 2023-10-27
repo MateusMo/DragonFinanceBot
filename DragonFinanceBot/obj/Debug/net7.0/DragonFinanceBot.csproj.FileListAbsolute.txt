@@ -13,3 +13,17 @@ C:\PersonalProjects\DragonFinance\DragonFinanceBot\DragonFinanceBot\obj\Debug\ne
 C:\PersonalProjects\DragonFinance\DragonFinanceBot\DragonFinanceBot\obj\Debug\net7.0\DragonFinanceBot.pdb
 C:\PersonalProjects\DragonFinance\DragonFinanceBot\DragonFinanceBot\obj\Debug\net7.0\DragonFinanceBot.genruntimeconfig.cache
 C:\PersonalProjects\DragonFinance\DragonFinanceBot\DragonFinanceBot\obj\Debug\net7.0\ref\DragonFinanceBot.dll
+C:\PersonalProjects\DragonFinance\DragonFinanceBot\DragonFinanceBot\bin\Debug\net7.0\selenium-manager\linux\selenium-manager
+C:\PersonalProjects\DragonFinance\DragonFinanceBot\DragonFinanceBot\bin\Debug\net7.0\selenium-manager\macos\selenium-manager
+C:\PersonalProjects\DragonFinance\DragonFinanceBot\DragonFinanceBot\bin\Debug\net7.0\selenium-manager\windows\selenium-manager.exe
+C:\PersonalProjects\DragonFinance\DragonFinanceBot\DragonFinanceBot\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\PersonalProjects\DragonFinance\DragonFinanceBot\DragonFinanceBot\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\PersonalProjects\DragonFinance\DragonFinanceBot\DragonFinanceBot\bin\Debug\net7.0\Microsoft.Extensions.Primitives.dll
+C:\PersonalProjects\DragonFinance\DragonFinanceBot\DragonFinanceBot\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\PersonalProjects\DragonFinance\DragonFinanceBot\DragonFinanceBot\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\PersonalProjects\DragonFinance\DragonFinanceBot\DragonFinanceBot\bin\Debug\net7.0\WebDriver.dll
+C:\PersonalProjects\DragonFinance\DragonFinanceBot\DragonFinanceBot\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\PersonalProjects\DragonFinance\DragonFinanceBot\DragonFinanceBot\bin\Debug\net7.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\PersonalProjects\DragonFinance\DragonFinanceBot\DragonFinanceBot\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
+C:\PersonalProjects\DragonFinance\DragonFinanceBot\DragonFinanceBot\obj\Debug\net7.0\DragonFinanceBot.csproj.CopyComplete
+C:\PersonalProjects\DragonFinance\DragonFinanceBot\DragonFinanceBot\bin\Debug\net7.0\HtmlAgilityPack.dll

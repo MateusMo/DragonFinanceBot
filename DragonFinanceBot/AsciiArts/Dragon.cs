@@ -65,5 +65,30 @@ namespace DragonFinanceBot.AsciiArts
 ";
             return asciiArt;
         }
+        //Adicionei esse
+        //dragão ascii
+        //para o contexto
+        //infomoney
+        public static string InfoMoneyDragon()
+        {
+            var asciiArt = @"
+                               ,  ,
+                   \\ \\
+                   ) \\ \\    _p_
+                   )^\))\))  /  *\
+                    \_|| || / /^`-'
+           __       -\ \\--/ /
+         <'  \\___/   ___. )'
+              `====\ )___/\\
+                   //     `""
+                   \\    /  \
+                   `"" +========+
+                      |Altas e  |
+                      |Baixas   |
+                      |Infomoney|
+                      """"""""""""""""""""
+"; 
+            return asciiArt;
+        }
     }
 }

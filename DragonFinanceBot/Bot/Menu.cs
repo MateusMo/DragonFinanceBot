@@ -28,6 +28,13 @@ namespace DragonFinanceBot.Bot
             switch (option)
             {
                 case 1:
+                    //Caso o usuário digite
+                    //1 entra no nosso contexto
+                    //da infomoney,
+                    //bora testar!!!
+                    var infoMoneyContext = new InfoMoneyContext();
+                    //Chamada do gatilho
+                    infoMoneyContext.InfoMoneyTrigger();
                     break;
                 case 2:
                     break;
