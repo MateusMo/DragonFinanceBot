@@ -13,7 +13,8 @@ namespace DragonFinanceBot.Menu
             string menu = @"
             1 - Buscar altas e baixas no infomoney
             2 - Buscar preço de criptos na coinmaketcap
-            3 - Fogo do dragão no bear marketing
+            3 - Fogo do dragão 
+            4 - Sair
 ";
             return menu;
         }

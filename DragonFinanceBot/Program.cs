@@ -2,11 +2,35 @@
 
 Menu.ShowMenu();
 
-//Criando um bot financeiro
-//parte 4
+//É isso
+//bora testar o bot
+//Comenta ai o que achou
+//e deixa o like
 
-//Hoje vamos criar
-//o primeiro console
-//com dados do bot
+//valeu familia!!!
 
-//bora láa
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

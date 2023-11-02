@@ -14,35 +14,20 @@ namespace DragonFinanceBot.Bot
 {
     public class InfoMoneyContext
     {
-        //Caminho do
-        //chrome driver
-        private readonly string driverPath = Path.Combine(Directory.GetParent(AppDomain.CurrentDomain.BaseDirectory).Parent.Parent.Parent.FullName, "Driver\\chromedriver.exe");
-        //Elemento webdriver
+        //Idem aqui
         private static IWebDriver _driver;
 
-        //Construtor que inicia
-        //o chrome driver
-        public InfoMoneyContext()
+        public InfoMoneyContext(IWebDriver driver)
         {
-            if(_driver == null)
-            {
-                _driver =
-                    new ChromeDriver(driverPath);
-            }
+            _driver = driver;
         }
 
-        //Vamos criar um gatilho
-        //Para chamar a nossa
-        //interação
-        //Gatilho
         public void InfoMoneyTrigger()
         {
             InfoMoneyStartConsole();
             NavigateToWebsite();
         }
 
-        //Vamos criar uma ação
-        //No nosso console
         public void InfoMoneyStartConsole()
         {
             Console.Clear();
@@ -54,48 +39,27 @@ namespace DragonFinanceBot.Bot
             _driver
                 .Navigate()
                 .GoToUrl("https://www.infomoney.com.br/ferramentas/altas-e-baixas/");
-            //chama o nosso
-            //webscraping
-            HtmlContext();
+            
+            Scraping();
         }
 
-        //Falta criar um 
-        //método com o nosso
-        //webscraping
-
-        //Esse método é grande
-        //por isso já deixei pronto
-        //vou explicar oq ele
-        //faz
-
-
-        public static void HtmlContext()
+        public static void Scraping()
         {
-            //Busca o elemento pelo id
-            //esse elemento é a
-            //tabela do infomoney
             IWebElement containerTable = 
                 _driver.FindElement(By.Id("container_table"));
-            //converte a tabela para
-            //html
+        
             string tableHtml = 
                 containerTable.GetAttribute("innerHTML");
-            //Cria novo doc html
+            
             var doc = new HtmlDocument();
-            //carrega o doc
             doc.LoadHtml(tableHtml);
-            //busca cada linha da tabela
             var rows = doc.DocumentNode.SelectNodes("//table/tbody/tr");
 
             if (rows != null)
             {
-                //printa o header
-                //da tabela
                 Console.WriteLine("--------------------------------------------------------------------");
                 Console.WriteLine("|    Ativo    |    Data    |    Último (R$)    |    VAR. DIA (%)    |");
                 Console.WriteLine("--------------------------------------------------------------------");
-                //printa cada linha
-                //da tabela
                 foreach (var row in rows)
                 {
                     var columns = row.SelectNodes("td");
@@ -107,11 +71,24 @@ namespace DragonFinanceBot.Bot
                         Console.WriteLine("------------------------------------------------------------");
                     }
                 }
-                //_driver.Quit();
+
             }
 
+            Choose();
         }
 
-
+        public static void Choose()
+        {
+            Console.WriteLine("Digite 1 para encerrar o bot");
+            Console.WriteLine("Digite 2 para voltar ao menu");
+            var option = int.Parse(Console.ReadLine());
+            if(option == 1)
+            {
+                Environment.Exit(0);
+            } else
+            {
+                Menu.ShowMenu();
+            }
+        }
     }
 }
