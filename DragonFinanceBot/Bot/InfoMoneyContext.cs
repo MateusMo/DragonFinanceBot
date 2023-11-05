@@ -45,6 +45,7 @@ namespace DragonFinanceBot.Bot
 
         public static void Scraping()
         {
+            Thread.Sleep(1000);
             IWebElement containerTable = 
                 _driver.FindElement(By.Id("container_table"));
         
